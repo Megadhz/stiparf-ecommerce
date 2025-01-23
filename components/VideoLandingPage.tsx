@@ -1,21 +1,9 @@
 'use client'
-import React, { useRef, useState } from 'react'
+import React, { useRef} from 'react'
 
 const VideoLandingPage: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null)
-  const [isPlaying, setIsPlaying] = useState(true)
 
-  const togglePlayPause = () => {
-    if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play()
-        setIsPlaying(true)
-      } else {
-        videoRef.current.pause()
-        setIsPlaying(false)
-      }
-    }
-  }
 
   return (
     <div className="relative w-full h-screen overflow-hidden border-t border-t-golddark">

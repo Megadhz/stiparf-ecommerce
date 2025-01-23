@@ -175,7 +175,7 @@ const Testimonial: React.FC = () => {
                                     }}
                                     className="text-lg mb-6 italic text-gray-600"
                                 >
-                                    "{testimonial.quote}"
+                                    &ldquo;{testimonial.quote}&rdquo;
                                 </motion.p>
 
                                 <motion.div

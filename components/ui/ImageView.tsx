@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react';
 import { urlFor } from '@/sanity/lib/image';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
 
 interface Props {
     images?: Array<{

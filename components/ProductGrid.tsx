@@ -33,7 +33,7 @@ const ProductGrid = () => {
             }
         };
         fetchData();
-    }, [selectedTab]);
+    }, [selectedTab, params, query]);
 
 
     return (

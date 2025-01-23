@@ -32,7 +32,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${raleway.variable} antialiased`}>
-          {/* <SplashScreen> */}
+          <SplashScreen>
             <ScrollWrapper>
             <Header />
 
@@ -45,7 +45,7 @@ export default function RootLayout({
               },
             }} />
             </ScrollWrapper>
-          {/* </SplashScreen> */}
+          </SplashScreen>
           
         </body>
       </html>

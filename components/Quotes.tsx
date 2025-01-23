@@ -3,7 +3,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 
-
 const parfumQuotes = [
   {
     quote: "Perfume is an invisible memory, yet always remembered.",
@@ -24,7 +23,6 @@ const QuotesPage: React.FC = () => {
   const quoteRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    
     const quoteTimeline = gsap.timeline();
 
     if (quoteRef.current) {
@@ -53,14 +51,12 @@ const QuotesPage: React.FC = () => {
         });
     }
 
-    
     const quoteInterval = setInterval(() => {
       setCurrentQuoteIndex((prevIndex) => 
         (prevIndex + 1) % parfumQuotes.length
       );
     }, 5000);
 
-    
     return () => {
       clearInterval(quoteInterval);
       quoteTimeline.kill();
@@ -103,7 +99,7 @@ const QuotesPage: React.FC = () => {
             italic
           "
         >
-          "{currentQuote.quote}"
+          &ldquo;{currentQuote.quote}&rdquo;
         </blockquote>
         <p 
           className="
@@ -117,9 +113,6 @@ const QuotesPage: React.FC = () => {
           - {currentQuote.author}
         </p>
       </div>
-
-      {/* Indikator Progress */}
-
     </div>
   );
 };

@@ -21,7 +21,7 @@ const SuccessPage = () => {
             resetCart();
 
         }
-    }, [orderNumber, sessionId, resetCart])
+    }, [orderNumber, sessionId, resetCart, router])
 
     return (
         <div className="py-10  flex items-center justify-center p-4 ">

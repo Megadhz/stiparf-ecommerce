@@ -1,6 +1,5 @@
 import Container from '@/components/container'
 import React from 'react'
-import { Slug } from '../../../../sanity.types';
 import { getAllCategories } from '@/sanity/helpers/queries';
 import Title from '@/components/Title';
 import CategoryProducts from '@/components/CategoryProducts';

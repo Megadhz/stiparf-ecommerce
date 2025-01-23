@@ -5,10 +5,8 @@ import { Loader2 } from 'lucide-react';
 
 const NoProductsAvailable = ({
     selectedTab,
-    className,
 }: {
     selectedTab: string;
-    className?: string;
 }) => {
     return (
         <div className={cn('flex flex-col items-center justify-center py-10 min-h-80 space-y-4 text-center bg-gradient-to-r from-golddark  to-[#e2c58b] rounded-lg w-full mt-10')}>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { productStatus } from '../constants/index';
-import { Repeat } from 'lucide-react';
 
 interface Props {
   selectedTab: string;

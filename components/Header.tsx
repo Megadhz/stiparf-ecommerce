@@ -8,13 +8,12 @@ import CartIcon from "./CartIcon";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { ClerkLoaded, SignedIn, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
-import { Archive, BookOpen, ListOrdered } from "lucide-react";
-import { getAllCategories, getMyOrders } from "@/sanity/helpers/queries";
+import { Archive } from "lucide-react";
+import { getMyOrders } from "@/sanity/helpers/queries";
 
 const Header = async () => {
   const user = await currentUser();
   const { userId } = await auth();
-  const categories = await getAllCategories();
   let orders = null
   if (userId) {
     orders = await getMyOrders(userId);

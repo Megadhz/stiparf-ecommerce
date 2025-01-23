@@ -1,6 +1,5 @@
 import { MapPin, Phone } from 'lucide-react';
 import React from 'react'
-import Title from './Title';
 
 interface Props {
     title: string;
