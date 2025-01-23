@@ -9,7 +9,6 @@ import ProductCard from './ProductCard';
 import NoProductsAvailable from './NoProductsAvailable';
 import { motion, AnimatePresence } from 'motion/react';
 import { Loader2 } from 'lucide-react';
-import { Button } from './ui/button';
 import Link from 'next/link';
 
 
