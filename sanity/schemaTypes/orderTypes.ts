@@ -5,7 +5,7 @@ export const orderType = defineType({
   name: "order",
   title: "Order",
   type: "document",
-  icon: BasketIcon,
+  // icon: BasketIcon,
   fields: [
     defineField({
       name: "orderNumber",
