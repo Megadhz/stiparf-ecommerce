@@ -17,7 +17,7 @@ const VideoLandingPage: React.FC = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
         <source
-          src="https://cdn.discordapp.com/attachments/1283802742271381649/1329711146302967918/y2mate.com_-_LOr_de_Jadore_the_new_perfume_720pFH.mp4?ex=678b5582&is=678a0402&hm=30094045a1e08b06be694933ca73ad363bbf59fc8b7b8f86fcb3f8eb76603836&"
+          src="https://raw.githubusercontent.com/Megadhz/my-video-hosting/main/y2mate.com%20-%20LOr%20de%20Jadore%20the%20new%20perfume_720pFH.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
