@@ -48,7 +48,7 @@ Nama Kelompok :
 -------------------------------------------------------------------------
 
     - Source Code (Github) : https://github.com/Megadhz/stiparf-ecommerce
-    - Source Video Presentasi (Youtube) : https://www.youtube.com/watch?v=Hk7D3Xt_YBs
+    - Source Video Presentasi (Youtube) : https://www.youtube.com/watch?v=RWafocUFstU
     - Source Preview (Drive): https://drive.google.com/drive/folders/12N47X6MxyNjfty_A8fJp2R4mz20e4WaR?usp=sharing
 
 -------------------------------------------------------------------------
