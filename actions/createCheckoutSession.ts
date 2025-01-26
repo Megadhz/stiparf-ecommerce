@@ -35,8 +35,8 @@ export async function createCheckoutSession(items: CartItem[], metadata: Metadat
             invoice_creation: {
                 enabled: true,
             },
-            success_url: `https://stiparf-ecommerce-agia-gj515mhhc-megadhzs-projects.vercel.app/success?session_id={CHECKOUT_SESSION_ID}&orderNumber=${metadata.orderNumber}`,
-            cancel_url: `https://stiparf-ecommerce-agia-gj515mhhc-megadhzs-projects.vercel.app/cart`,
+            success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/success?session_id={CHECKOUT_SESSION_ID}&orderNumber=${metadata.orderNumber}`,
+            cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/cart`,
             line_items: items?.map((item) => ({
                 price_data: {
                     currency: 'USD',
@@ -52,7 +52,7 @@ export async function createCheckoutSession(items: CartItem[], metadata: Metadat
             })),
             shipping_options: [
                 {
-                    shipping_rate: 'shr_1QiqvMALQASzZgRqHI560k5A', 
+                    shipping_rate: 'shr_1QiqvMALQASzZgRqHI560k5A',
                 },
             ],
         };
