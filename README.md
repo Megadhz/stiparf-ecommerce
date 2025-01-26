@@ -27,6 +27,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+-------------------------------------------------------------------------
+
 Kepada Bapak Dosen Wayan Galih Pratama,S.Ti.,M.Ti yang terhormat, 
 terlampir proyek UAS kami sesuai dengan instruksi yang telah diberikan. 
 Kami sangat berterima kasih atas waktu dan kesediaan Bapak dalam membimbing kami.🙏
@@ -36,11 +38,12 @@ Kami sangat berterima kasih atas waktu dan kesediaan Bapak dalam membimbing kami
 Website E-Commerce (Stiparf Perfume Collection)
 
 Nama Kelompok : 
-I Putu Megadhana Artabawa (230030031)
-Komang Bagus Widiana  (230030062)
-I Gede Adi Sedaya Tana  (230030012)
-Vinto Dhammanda Suryanto Wijaya  (230030051)
-I Wayan Kanda Wedanatha Pasek  (230030236)
+
+    - I Putu Megadhana Artabawa (230030031)
+    - Komang Bagus Widiana  (230030062)
+    - I Gede Adi Sedaya Tana  (230030012)
+    - Vinto Dhammanda Suryanto Wijaya  (230030051)
+    - I Wayan Kanda Wedanatha Pasek  (230030236)
 
 -------------------------------------------------------------------------
 
@@ -78,33 +81,39 @@ Fitur Utama :
 Untuk Fitur utama sudah 100% diterapkan dari referensi pada excel yang diberikan.
 
 Daftar Parfum : 
+
     - Menampilkan daftar parfum berdasarkan kategori (new, hot, discount, men, women, unisex).
     - Gambar produk yang dapat diperbesar.
     - Fitur pencarian produk.
 
 Keranjang Belanja : 
+
     - Menambah/Mengurangi jumlah produk.
     - Menghapus produk.
     - Menampilkan Harga produk saat dipilih.
     - Menampilkan total harga dan estimasi ongkir.
 
 Pembayaran (integrasi dengan stripe):
+
     - Transfer bank manual dengan konfirmasi pembayaran.
     - Integrasi dengan payment gateway (Paypal, stripe)
     - Menghitung ongkos kirim.
     - Menampilkan status pengiriman (diproses, dikirim, selesai).
 
 Pengelolaan Parfum oleh Penjual (integrasi dengan sanity): 
+
     - Menambah, mengedit, menghapus produk.
     - Mengatur harga, deskripsi, stok.
     - Dashboard sanity untuk penjualan dan stok.
 
 Akun Pengguna (integrasi dengan clerk): 
+
     - Login dan registrasi.
     - Mengelola informasi pribadi.
     - Riwayat pembelian.
 
 Halaman Admin (Integrasi dengan sanity dan clerk):
+
     - Menambahkan, mengedit, dan menghapus produk.
     - Melihat laporan penjualan dan transaksi.
     - Meninjau status pesanan dan memproses pengiriman.
